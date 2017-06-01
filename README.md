@@ -1,2 +1,2 @@
-# placeholder
-React hot-reload boilerplate
+# Camper Leaderboard
+React FCC Camper Leaderboard
