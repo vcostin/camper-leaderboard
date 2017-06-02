@@ -1,9 +1,9 @@
 import React from 'react';
-import Placeholder from '../components/Placeholder';
+import LeaderBoardContainer from '../components/LeaderBoardContainer';
 
 const Root = () => (
   <div>
-    <Placeholder />
+    <LeaderBoardContainer />
   </div>
 );
 

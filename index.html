@@ -2,11 +2,37 @@
 
 <head>
   <title>Camper Leaderboard</title>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <style>
+    .table-cell-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: baseline;
+      height: 2.5rem;
+    }
+
+    .centrate {
+      justify-content: center;
+    }
+    .inner-cell {
+      align-self: center;
+    }
+
+    .avatar {
+      width: 2.5rem;
+      height: auto;
+    }
+
+    .user-name {
+      padding-left: 1rem;
+    }
+  </style>
+</head>
 
 <body>
-<div id="root"></div>
-<script src="app.js"></script>
+  <div id="root"></div>
+  <script src="app.js"></script>
 </body>
 
 </html>
